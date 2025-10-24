@@ -11,21 +11,58 @@
         <img src="../imagenes/Academy_logo.PNG" alt="Logo Academy">
         <h1>Academy</h1>
     </header>
-    <nav><ul><li><a href="nosotros.html" class="">Nosotros</a></li><li><a href="programas.html" class="">Programas académicos</a></li><li><a href="admision.html" class="">Admisión</a></li><li><a href="noticias.html" class="">Noticias y eventos</a></li><li><a href="contacto.html" class="">Contacto</a></li></ul></nav>
+    <nav><ul><li><a href="nosotros.html" class="">Nosotros</a></li><li><a href="programas.html" class="">Programas académicos</a></li><li><a href="admision.html" class="activo">Admisión</a></li><li><a href="noticias.html" class="">Noticias y eventos</a></li><li><a href="contacto.html" class="">Contacto</a></li></ul></nav>
     <main>
 <section>
-    <div class="admision-contenido">
+    <div class="admision-formulario">
         <h2>Admisión</h2>
-        <h3>Datos Personales:</h3>
-        <p><b>Nombres:</b> _______________________ &nbsp;&nbsp; <b>Correo Electrónico:</b> _______________________</p>
-        <p><b>Apellido Paterno:</b> __________ &nbsp;&nbsp; <b>Celular:</b> __________</p>
-        <p><b>Apellido Materno:</b> __________ &nbsp;&nbsp; <b>Modalidad:</b> __________</p>
-        <p><b>DNI:</b> __________ &nbsp;&nbsp; <b>Turno:</b> __________</p>
+        <h4>DATOS PERSONALES:</h4>
+        
+        <form action="#" method="post">
+            <div class="form-container">
+                <div class="form-column">
+                    <div class="form-group">
+                        <label for="nombres">Nombres:</label>
+                        <input type="text" id="nombres" name="nombres">
+                    </div>
+                    <div class="form-group">
+                        <label for="apellido-paterno">Apellido Paterno:</label>
+                        <input type="text" id="apellido-paterno" name="apellido-paterno">
+                    </div>
+                    <div class="form-group">
+                        <label for="apellido-materno">Apellido Materno:</label>
+                        <input type="text" id="apellido-materno" name="apellido-materno">
+                    </div>
+                    <div class="form-group">
+                        <label for="dni">DNI:</label>
+                        <input type="text" id="dni" name="dni">
+                    </div>
+                </div>
+                <div class="form-column">
+                    <div class="form-group">
+                        <label for="email">Correo Electrónico:</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="celular">Celular:</label>
+                        <input type="tel" id="celular" name="celular">
+                    </div>
+                    <div class="form-group">
+                        <label for="modalidad">Modalidad:</label>
+                        <input type="text" id="modalidad" name="modalidad">
+                    </div>
+                    <div class="form-group">
+                        <label for="turno">Turno:</label>
+                        <input type="text" id="turno" name="turno">
+                    </div>
+                </div>
+            </div>
+            </form>
     </div>
 </section>
+    </main>
     <footer>
-        <img src="../imagenes/logo_inferior.PNG" alt="inferior" style="display: block; margin: 0 auto;">>
+        <img src="../imagenes/logo_inferior.PNG" alt="inferior" style="display: block; margin: 0 auto; max-width: 100%;">
     </footer>
-</main>
 </body>
 </html>

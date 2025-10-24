@@ -71,3 +71,140 @@ img.placeholder {
     margin-right: auto;   
     padding: 0 20px; 
 }
+.subpagina-nav-container {
+    background-color: #f0f6fc; /* Un fondo ligeramente diferente */
+    border: 1px solid #c9def5;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.subpagina-nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.subpagina-link {
+    background-color: #ffffff;
+    border: 1px solid #a0c0e0;
+    border-radius: 8px;
+    width: 300px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.subpagina-link:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.subpagina-link img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; /* Asegura que la imagen cubra el espacio */
+    border-radius: 5px;
+    border-bottom: 1px solid #a0c0e0;
+    margin-bottom: 15px;
+}
+
+.subpagina-link a {
+    text-decoration: none;
+    color: #0b2c61;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.subpagina-link a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para el footer */
+footer {
+    padding: 20px;
+    background-color: #fff; /* O el color que prefieras */
+    margin-top: 30px;
+    border-top: 2px solid #c9def5;
+}
+
+footer img {
+    max-width: 100%;
+    height: auto;
+}
+
+.admision-formulario {
+    max-width: 900px;   
+    margin-left: auto;
+    margin-right: auto;   
+    padding: 0 20px; 
+    min-height: 40vh; /* Asegura que el contenido tenga algo de espacio */
+}
+
+.admision-formulario h2 {
+    color: #0b2c61;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.admision-formulario h4 {
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Para que en pantallas pequeñas se ponga una columna debajo de otra */
+}
+
+.form-column {
+    flex-basis: 48%; /* Cada columna ocupa casi la mitad, dejando espacio */
+    min-width: 300px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column; /* Etiqueta arriba, campo abajo */
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+    font-size: 14px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #a0c0e0; /* Borde más sutil como en el nav */
+    border-radius: 4px;
+    box-sizing: border-box; /* Importante para que el padding no desajuste el ancho */
+    background-color: #f0f6fc; /* Fondo claro para los inputs */
+}
+
+/* (Opcional) Estilos para el botón de enviar */
+.btn-enviar {
+    background-color: #0b2c61;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn-enviar:hover {
+    background-color: #004a99;
+}
