@@ -9,12 +9,12 @@ body {
 header {
     display: flex;
     align-items: center;
-    background-color: #c9def5;
+    background-color: #fff;
     padding: 10px 20px;
 }
-nav {
+/* nav {
    margin-left: 20px;
-}
+} */
 
 header img {
     width: 80px;
@@ -73,7 +73,7 @@ img.placeholder {
     padding: 0 20px; 
 }
 .subpagina-nav-container {
-    background-color: #f0f6fc; /* Un fondo ligeramente diferente */
+    background-color: #f0f6fc; 
     border: 1px solid #c9def5;
     padding: 20px;
     margin-bottom: 30px;
@@ -105,7 +105,7 @@ img.placeholder {
 .subpagina-link img {
     width: 100%;
     height: 200px;
-    object-fit: cover; /* Asegura que la imagen cubra el espacio */
+    object-fit: cover; 
     border-radius: 5px;
     border-bottom: 1px solid #a0c0e0;
     margin-bottom: 15px;
@@ -122,10 +122,10 @@ img.placeholder {
     text-decoration: underline;
 }
 
-/* Estilo para el footer */
+
 footer {
     padding: 20px;
-    background-color: #fff; /* O el color que prefieras */
+    background-color: #fff; 
     margin-top: 30px;
     border-top: 2px solid #c9def5;
 }
@@ -140,7 +140,7 @@ footer img {
     margin-left: auto;
     margin-right: auto;   
     padding: 0 20px; 
-    min-height: 40vh; /* Asegura que el contenido tenga algo de espacio */
+    min-height: 40vh; 
 }
 
 .admision-formulario h2 {
@@ -161,18 +161,18 @@ footer img {
 .form-container {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap; /* Para que en pantallas pequeñas se ponga una columna debajo de otra */
+    flex-wrap: wrap;
 }
 
 .form-column {
-    flex-basis: 48%; /* Cada columna ocupa casi la mitad, dejando espacio */
+    flex-basis: 48%; 
     min-width: 300px;
 }
 
 .form-group {
     margin-bottom: 15px;
     display: flex;
-    flex-direction: column; /* Etiqueta arriba, campo abajo */
+    flex-direction: column; 
 }
 
 .form-group label {
@@ -187,13 +187,13 @@ footer img {
 .form-group input[type="tel"] {
     width: 100%;
     padding: 8px;
-    border: 1px solid #a0c0e0; /* Borde más sutil como en el nav */
+    border: 1px solid #a0c0e0; 
     border-radius: 4px;
-    box-sizing: border-box; /* Importante para que el padding no desajuste el ancho */
-    background-color: #f0f6fc; /* Fondo claro para los inputs */
+    box-sizing: border-box; 
+    background-color: #f0f6fc; 
 }
 
-/* (Opcional) Estilos para el botón de enviar */
+
 .btn-enviar {
     background-color: #0b2c61;
     color: white;
@@ -210,28 +210,28 @@ footer img {
     background-color: #004a99;
 }
 .contact-section-container {
-    /* Establece el layout de 2 columnas */
+  
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap; 
     
-    /* Centra el contenedor como el de admisión */
+   
     max-width: 900px; 
     margin: 0 auto; 
 
-    /* Hereda el fondo blanco y borde de la <section> */
+  
 }
 
 .contact-info, .contact-map {
-    flex-basis: 48%; /* Cada columna ocupa casi la mitad */
-    min-width: 300px; /* Ancho mínimo para responsiveness */
+    flex-basis: 48%;
+    min-width: 300px; 
     margin-bottom: 20px;
 }
 
 .contact-info h2, .contact-map h2 {
     color: #0b2c61;
     font-weight: bold;
-    font-size: 24px; /* Mismo tamaño que en admisión */
+    font-size: 24px; 
     margin-bottom: 20px;
 }
 
@@ -243,7 +243,7 @@ footer img {
 }
 
 .contact-info p strong {
-    /* Esto alinea las etiquetas */
+
     display: inline-block;
     width: 90px; 
     color: #0b2c61;
@@ -256,21 +256,21 @@ footer img {
     margin-bottom: 10px;
 }
 .historia-container {
-    /* Layout de 2 columnas */
+ 
     display: flex;
     justify-content: space-between;
-    align-items: flex-start; /* Alinea los elementos al inicio */
+    align-items: flex-start; 
     flex-wrap: wrap;
     
-    /* Centrado y ancho consistentes */
+
     max-width: 900px; 
     margin: 0 auto; 
-    padding: 20px; /* Asegura espacio interno */
+    padding: 20px; 
 }
 
 .historia-texto, .historia-imagen {
-    flex-basis: 48%; /* Cada columna ocupa casi la mitad */
-    min-width: 300px; /* Ancho mínimo para responsiveness */
+    flex-basis: 48%; 
+    min-width: 300px; 
     margin-bottom: 20px;
 }
 
@@ -291,20 +291,20 @@ footer img {
     width: 100%;
     height: auto;
     border-radius: 8px;
-    border: 1px solid #a0c0e0; /* Borde sutil del estilo */
+    border: 1px solid #a0c0e0; 
 }
 .vision-container {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
-    max-width: 900px; /* Consistente con las otras páginas */
+    max-width: 900px;
     margin: 0 auto; 
     padding: 20px;
 }
 
 .vision-texto, .vision-imagen {
-    flex-basis: 48%; /* Cada columna ocupa casi la mitad */
+    flex-basis: 48%; 
     min-width: 300px;
     margin-bottom: 20px;
 }
@@ -320,13 +320,76 @@ footer img {
     font-size: 16px;
     line-height: 1.6;
     color: #333;
-    margin-bottom: 20px; /* Espacio entre Misión y Visión */
+    margin-bottom: 20px; 
 }
 
 .vision-imagen img {
     width: 100%;
     height: auto;
     border-radius: 8px;
-    /* Opcional: añade el borde de tu estilo */
-    /* border: 1px solid #a0c0e0; */
+
+}
+.page-container {
+    max-width: 900px;
+    margin: 20px auto; 
+    background-color: #ffffff;
+    
+    border: 1px solid #a0c0e0;
+    border-radius: 8px; 
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    overflow: hidden; 
+}
+.cursos-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 900px; 
+    margin: 0 auto; 
+    padding: 20px;
+}
+
+.cursos-texto, .cursos-imagen {
+    flex-basis: 48%; 
+    min-width: 300px;
+    margin-bottom: 20px;
+}
+
+.cursos-texto h3 {
+    color: #0b2c61;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
+.cursos-texto ul {
+    list-style-type: none; 
+    padding-left: 0;
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.cursos-texto ul li {
+    position: relative;
+    padding-left: 15px; 
+    margin-bottom: 10px; 
+}
+
+.cursos-texto ul li::before {
+    content: '-'; 
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #0b2c61; 
+    font-weight: bold;
+}
+
+.cursos-imagen img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #a0c0e0;
 }

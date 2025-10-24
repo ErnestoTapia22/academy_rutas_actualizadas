@@ -7,24 +7,43 @@
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body>
-    <header>
-        <img src="../imagenes/Academy_logo.PNG" alt="Logo Academy">
-        <h1>Academy</h1>
-    </header>
-    <nav><ul><li><a href="nosotros.html">Nosotros</a></li><li><a href="programas.html" class="activo">Programas académicos</a></li><li><a href="admision.html">Admisión</a></li><li><a href="noticias.html">Noticias y eventos</a></li><li><a href="contacto.html">Contacto</a></li></ul></nav>
-    <main>
-        <section>
-            <h2 style="text-align: center;">Cursos Virtuales</h2>
-            <img src="../imagenes/imagen_index.PNG" class="placeholder" alt="Cursos Virtuales" style="width: 50%; height: auto; max-width: 600px;">
-            <p style="text-align: center; max-width: 800px; margin: 20px auto;">
-                Aprende a tu propio ritmo con nuestra plataforma virtual. Accede a clases grabadas, 
-                material de estudio y sesiones en vivo desde cualquier lugar.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris.
-            </p>
-        </section>
-    </main>
-    <footer>
-        <img src="../imagenes/logo_inferior.PNG" alt="inferior" style="display: block; margin: 0 auto; max-width: 100%;">
-    </footer>
-</body>
+    <div class="page-container"> <header>
+            <img src="../imagenes/Academy_logo.PNG" alt="Logo Academy">
+            <nav>
+                <ul>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="programas.html" class="activo">Programas académicos</a></li>
+                    <li><a href="admision.html">Admisión</a></li>
+                    <li><a href="noticias.html">Noticias y eventos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="cursos-container">
+                
+                <div class="cursos-texto">
+                    <h3>VIRTUAL</h3>
+                    <ul>
+                        <li>Acceso a la plataforma de estudio 24/7.</li>
+                        <li>Clases en vivo y grabadas para repasar.</li>
+                        <li>Tutoría en línea y resolución de dudas.</li>
+                        <li>Material de estudio descargable.</li>
+                        <li>Simulacros de examen virtuales.</li>
+                        <li>Aprende desde la comodidad de tu hogar.</li>
+                    </ul>
+                </div>
+
+                <div class="cursos-imagen">
+                    <img src="../imagenes/imagen_index.PNG" alt="Cursos Virtuales">
+                </div>
+
+            </section>
+        </main>
+        
+        <footer>
+            <img src="../imagenes/logo_inferior.PNG" alt="inferior" style="display: block; margin: 0 auto; max-width: 100%;">
+        </footer>
+    </div> </body>
 </html>
