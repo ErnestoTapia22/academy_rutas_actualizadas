@@ -7,16 +7,33 @@
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    <header>
-        <img src="imagenes/Academy_logo.PNG" alt="Logo Academy">
-        <h1>Academy</h1>
-    </header>
-    <nav><ul><li><a href="Páginas/nosotros.html" class="">Nosotros</a></li><li><a href="Páginas/programas.html" class="">Programas académicos</a></li><li><a href="Páginas/admision.html" class="">Admisión</a></li><li><a href="Páginas/noticias.html" class="">Noticias y eventos</a></li><li><a href="Páginas/contacto.html" class="">Contacto</a></li></ul></nav>
-    <main>
-<section>
-    <img src="imagenes/imagen_index.PNG" class="placeholder" alt="Imagen de introducción" style="width:400px;height:300px;">
-    <img src="imagenes/imagen_index_inferior.PNG" class="placeholder" alt="Banner" style="width:800px;height:250px;">
-</section>
-</main>
-</body>
+    <div class="page-container">
+
+        <header>
+            <img src="imagenes/Academy_logo.PNG" alt="Logo Academy">
+            <nav>
+                <ul>
+                     <li class="dropdown">
+            <a href="Páginas/nosotros.html" class="">Nosotros</a>
+            <ul class="submenu">
+                <li><a href="Páginas/historia.html">Nuestra Historia</a></li>
+                <li><a href="Páginas/mision_vision.html">Misión y Visión</a></li>
+            </ul>
+        </li>
+                    <li><a href="Páginas/programas.html" class="">Programas académicos</a></li>
+                    <li><a href="Páginas/admision.html" class="">Admisión</a></li>
+                    <li><a href="Páginas/noticias.html" class="">Noticias y eventos</a></li>
+                    <li><a href="Páginas/contacto.html" class="">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="index-content">
+                <img src="imagenes/imagen_index.PNG" class="placeholder1" alt="Imagen de introducción">
+                <img src="imagenes/imagen_index_inferior.PNG" class="placeholder2" alt="Banner">
+            </section>
+        </main>
+
+    </div> </body>
 </html>

@@ -1,48 +1,86 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nosotros</title>
-    <link rel="stylesheet" href="../css/estilos.css">
-</head>
-<body>
+    <link rel="stylesheet" href="../css/estilos.css" />
+  </head>
+  <body>
     <div class="page-container">
-    <header>
-        <img src="../imagenes/Academy_logo.PNG" alt="Logo Academy">
-        <nav><ul><li><a href="nosotros.html" class="activo">Nosotros</a></li><li><a href="programas.html" class="">Programas académicos</a></li><li><a href="admision.html" class="">Admisión</a></li><li><a href="noticias.html" class="">Noticias y eventos</a></li><li><a href="contacto.html" class="">Contacto</a></li></ul></nav>
-    </header>
-   
-    <main>
+      <header>
+        <a href="../index.html">
+          <img src="../imagenes/Academy_logo.PNG" alt="Logo Academy" />
+        </a>
+        <nav>
+          <ul>
+            <li class="dropdown">
+            <a href="nosotros.html" class="activo">Nosotros</a>
+            <ul class="submenu">
+                <li><a href="historia.html">Nuestra Historia</a></li>
+                <li><a href="mision_vision.html">Misión y Visión</a></li>
+            </ul>
+        </li>
+             <li>
+              <a href="programas.html" >Programas académicos</a>
+              <ul class="submenu">
+                <li><a href="cursos_presenciales.html">Cursos Presenciales</a></li>
+                <li><a href="cursos_virtuales.html">Cursos Virtuales</a></li>
+              </ul>
+            </li>
+            <li><a href="admision.html" class="">Admisión</a></li>
+            <li><a href="noticias.html" class="">Noticias y eventos</a></li>
+            <li><a href="contacto.html" class="">Contacto</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
         <section>
-            <img src="../imagenes/imagen_nosotros_centro.PNG" class="placeholder" alt="Centrado" style="width: 50%; height: auto; max-width: 600px;">
+          <img
+            src="../imagenes/imagen_nosotros_centro.PNG"
+            class="placeholder"
+            alt="Centrado"
+            style="width: 50%; height: auto; max-width: 600px"
+          />
         </section>
 
-        <section class="subpagina-nav-container">
-            <h2 style="text-align: center;">Conoce más</h2>
-            <div class="subpagina-nav">
-                <div class="subpagina-link">
-                    <img src="../imagenes/imagen_historia.PNG" alt="Nuestra Historia">
-                    <a href="historia.html"><h3>Nuestra Historia</h3></a>
-                </div>
-                <div class="subpagina-link">
-                    <img src="../imagenes/imagen_nosotros_nuestroequipo_1.PNG" alt="Misión y Visión">
-                    <a href="mision_vision.html"><h3>Misión y Visión</h3></a>
-                </div>
-            </div>
-        </section>
+        
         <section>
-            <h2 style="text-align: center;">Nuestro equipo</h2>
-            <div style="display:flex;justify-content:center;gap:20px;flex-wrap:wrap;">
-                <img src="../imagenes/imagen_nosotros_nuestroequipo_1.PNG" class="placeholder" alt="Equipo 1">
-                <img src="../imagenes/imagen_nosotros_nuestroequipo2.PNG" class="placeholder" alt="Equipo 2">
-                <img src="../imagenes/imagen_nosotros_nuestroequipo3.PNG" class="placeholder" alt="Equipo 3">
-            </div>
+          <h2 style="text-align: center">Nuestro equipo</h2>
+          <div
+            style="
+              display: flex;
+              justify-content: center;
+              gap: 20px;
+              flex-wrap: wrap;
+            "
+          >
+            <img
+              src="../imagenes/imagen_nosotros_nuestroequipo_1.PNG"
+              class="placeholder"
+              alt="Equipo 1"
+            />
+            <img
+              src="../imagenes/imagen_nosotros_nuestroequipo2.PNG"
+              class="placeholder"
+              alt="Equipo 2"
+            />
+            <img
+              src="../imagenes/imagen_nosotros_nuestroequipo3.PNG"
+              class="placeholder"
+              alt="Equipo 3"
+            />
+          </div>
         </section>
-    </main>
-    <footer>
-        <img src="../imagenes/logo_inferior.PNG" alt="inferior" style="display: block; margin: 0 auto; max-width: 100%;">
-    </footer>
+      </main>
+      <footer>
+        <img
+          src="../imagenes/logo_inferior.PNG"
+          alt="inferior"
+          style="display: block; margin: 0 auto; max-width: 100%"
+        />
+      </footer>
     </div>
-</body>
+  </body>
 </html>
